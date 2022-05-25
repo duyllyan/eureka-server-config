@@ -1,0 +1,3 @@
+server:
+  port: ${PORT:8081}
+message: Configuração padrão com Spring Cloud Config
