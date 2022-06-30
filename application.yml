@@ -1,18 +1,6 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-management:
-  info:
-    env:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: health,info 
+server:
+  port: 8888
+message: Teste - aula 05 - Configuracao em sistemas distribuidos
 info:
   author: Duyllyan A. Carvalho
   mail: duyllyan@gmail.com
-server:
-  port: ${PORT:9999}
-message: Generic
